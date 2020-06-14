@@ -4,7 +4,7 @@
 
 ## How it works
 
-Unsupervised Real-Time Anomaly Detection for Streaming Data uses is Hierarchical Temporal Memory.
+This app is using Hierarchical Temporal Memory.I used the sample application in the following paper.
 
 [Unsupervised Real-Time Anomaly Detection for Streaming Data](https://numenta.com/neuroscience-research/research-publications/papers/unsupervised-real-time-anomaly-detection-for-streaming-data/)
 
@@ -20,6 +20,8 @@ Hawkins, J. et al. 2016-2020. Biological and Machine Intelligence.
 
 64-bit OS is required to use the HTM system.
 
-[https://www.raspberrypi.org/forums/viewtopic.php?t=275370](Raspberry Pi OS (64 bit) beta test version)
+[Raspberry Pi OS (64 bit) beta test version](https://www.raspberrypi.org/forums/viewtopic.php?t=275370)
 
+There is one problem with using a 64-bit OS on a Raspberry Pi: :fire:CPU temperature is as high as 70 to 80 degrees.Fan is a must!
 
+![pi4.jpg](https://github.com/PonDad/RaspberryPi4-Unsupervised-Real-Time-Anomaly-Detection/blob/master/img/pi4.jpg)
